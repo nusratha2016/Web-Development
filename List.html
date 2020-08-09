@@ -1,0 +1,52 @@
+<!DOCTYPE html/>
+<html>
+<head>
+<title>To Do List</title>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="javascript.js"></script>
+</head>
+<body>
+  <h1>To-Do List of Web Development</h1>
+    <h2>About Me and Benjamin</h2>
+    <p>Me (Nusrath) and my Partner (Benjamin) both are students at Medgar Evers College of the City University of New York. We enjoy Learning about Computer!!!</p>
+    <h2>To-Do List</h2>
+    <ol>
+      <li id="todo1"class="task">Find Internship or Job based on my Major
+      <button onclick= "TaskDone('todo1')">DONE</button>
+      <button onclick=" TaskDone('todo1')">UNDONE</button>
+      </li>
+
+      <li id="todo2"class="task">Always practice coding
+       <button onclick="TaskDone('todo2')">DONE</button>
+       <button onclick=" TaskDone('todo2')">UNDONE</button>
+      </li>
+
+      <li id="todo3"class="task">Finish this Bootcamp by learning all the requirement
+       <button onclick="TaskDone('todo3')">DONE</button>
+       <button onclick=" TaskDone('todo3')">UNDONE</button>
+      </li>
+
+      <li id="todo4" class="task">Finish all Assignments Before times up
+       <button onclick="TaskDone('todo4')">DONE</button>
+       <button onclick=" TaskDone('todo4')">UNDONE</button>
+      </li>
+
+      <li id="todo5" class="task">Buy House
+       <button onclick="TaskDone('todo5')">DONE</button>
+       <button onclick=" TaskDone('todo5')">UNDONE</button>
+      </li>
+
+      <li id="todo5" class="task">Never Give Up
+       <button onclick="TaskDone('todo6')">DONE</button>
+       <button onclick=" TaskDone('todo6')">UNDONE</button>
+      </li>
+
+     </ol>
+     <button onclick="clearAll()">CLEAR ALL</button>
+     <button onclick="AddItem()">ADD ITEM</button>
+
+     <ol>
+</body>
+
+</html>
