@@ -1,4 +1,4 @@
-function TaskDone(nusrathandbenjamin)
+function TaskDone(nusrath)
 {
    var bulletstyle = document.getElementById(nusrath).style.textDecoration;
   if(bulletstyle=="line-through")
